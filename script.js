@@ -6,7 +6,7 @@ const All = document.querySelector(".All");
 const videoTitle = document.querySelector(".title");
 
 const ulTag = document.querySelector("ul");
-All.innerHTML = `${allVideos.length} Videos`;
+All.innerHTML = `Generated Music Videos`;
 
 let musicIndex = 1;
 window.addEventListener("load", () => {
