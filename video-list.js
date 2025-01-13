@@ -1,12 +1,23 @@
 let allVideos = [
   {
-    name: "Big Buck Bunny",
-    src: "./video/big_buck_bunny.mp4",
+    name: "believer",
+    src: "./video/believer.mp4",
     id: "vid_1",
   },
   {
-    name: "A Rocky Coast",
-    src: "./video/pexels-video-1550080.mp4",
+    name: "gods",
+    src: "./video/gods.mp4",
     id: "vid_2",
   },
+  {
+    name: "onesummersday",
+    src: "./video/onesummersday.mp4",
+    id: "vid_3",
+  },
+  {
+    name: "pokerface",
+    src: "./video/pokerface.mp4",
+    id: "vid_4",
+  },
+
 ];
