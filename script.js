@@ -19,7 +19,7 @@ function playMusic() {
 }
 function loadMusic(indexNumb) {
   mainVideo.src = `${allVideos[indexNumb - 1].src}`;
-  videoTitle.innerHTML = `${indexNumb}. ${allVideos[indexNumb - 1].name}`;
+  videoTitle.innerHTML = `${allVideos[indexNumb - 1].theme}`;
 }
 
 for (let i = 0; i < allVideos.length; i++) {
